@@ -1,0 +1,1 @@
+import{j as o}from"./index-Cuv-xBcc.js";import{A as t}from"./AboutSection-U1G9AZ-M.js";import"./motion-primitives-G8MTH2li.js";import"./proxy-BQ5AoEwp.js";import"./EditorialImage-D9Q0GEqH.js";import"./map-pin-RZmPlMN-.js";function n(){return o.jsx("div",{className:"pt-20",children:o.jsx(t,{})})}export{n as component};

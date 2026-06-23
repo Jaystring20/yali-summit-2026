@@ -1,0 +1,1 @@
+import{r as e,s as a}from"./index-Cuv-xBcc.js";function l(){const[o,t]=e.useState(null),[r,n]=e.useState(!0);return e.useEffect(()=>{let s=!0;const{data:i}=a.auth.onAuthStateChange((u,f)=>{s&&(t(f),n(!1))});return a.auth.getSession().then(({data:u})=>{s&&(t(u.session),n(!1))}),()=>{s=!1,i.subscription.unsubscribe()}},[]),{session:o,loading:r}}export{l as u};

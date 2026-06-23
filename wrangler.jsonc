@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yali-summit-connect",
+  "compatibility_date": "2025-09-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": ".output/static",
+  "main": ".output/server/index.js"
+}
